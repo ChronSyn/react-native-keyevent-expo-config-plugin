@@ -84,7 +84,7 @@ const withAndroidMainActivityImport: ConfigPlugin = (config) => {
       tag: 'react-native-keyevent-import',
       src: config.modResults.contents,
       newSrc: newSrc.join('\n'),
-      anchor: `package com.morrow.flint;`,
+      anchor: `;`,
       offset: 1,
       comment: '//',
     });

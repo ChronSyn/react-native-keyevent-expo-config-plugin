@@ -4,7 +4,8 @@ Config plugin to auto configure react-native-keyevent on prebuild
 ### Add the package to your npm dependencies
 
 ```
-yarn add react-native-keyevent react-native-keyevent-expo-config-plugin
+yarn add react-native-keyevent
+yarn add --dev react-native-keyevent-expo-config-plugin
 ```
 
 In your `app.json` or equivalent, add the following;
@@ -12,7 +13,7 @@ In your `app.json` or equivalent, add the following;
 {
     expo: {
       /* ... */
-      plugins: ['./plugins/withReactNativeKeyEvent'],
+      plugins: ['react-native-keyevent-expo-config-plugin'],
     },
   }
 ```
