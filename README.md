@@ -11,11 +11,11 @@ yarn add --dev react-native-keyevent-expo-config-plugin
 In your `app.json` or equivalent, add the following;
 ```js
 {
-    expo: {
-      /* ... */
-      plugins: ['react-native-keyevent-expo-config-plugin'],
-    },
-  }
+  expo: {
+    /* ... */
+    plugins: ['react-native-keyevent-expo-config-plugin'],
+  },
+}
 ```
 
 # Contributing
