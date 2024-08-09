@@ -62,7 +62,7 @@ const withIosAppDelegateBody = (config) => {
             tag: 'react-native-keyevent-body',
             src: config.modResults.contents,
             newSrc: newSrc.join('\n'),
-            anchor: `@implementation AppDelegate`,
+            anchor: `@implementation AppDelegate`, // /#import "AppDelegate\.h"/g,
             offset: 1,
             comment: '//',
         });
